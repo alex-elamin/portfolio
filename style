@@ -1,1 +1,60 @@
+/* General body */
+body {
+    background-color: #121212; /* dark background */
+    color: #ffffff;           /* λευκό κείμενο */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+/* Card styling */
+.card {
+    background-color: #1e1e1e;  /* πιο ανοιχτό μαύρο για κάρτα */
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Buttons */
+.btn-purple {
+    background-color: #6a0dad;  /* μωβ */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+.btn-purple:hover {
+    background-color: #7f1bd1;
+}
+
+/* Icons */
+.icons img {
+    width: 32px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* Headings */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #cfcfcf;
+}
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
 

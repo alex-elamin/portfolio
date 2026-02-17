@@ -2,37 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Alex Elamin | Data Engineer</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <title>Alex Elamin Portfolio</title>
+    <style>
+        body { font-family: Arial; background-color: #0d0d0d; color: #ffffff; margin: 0; padding: 0; }
+        .header { background-color: #2e004f; padding: 20px; text-align: center; }
+        .header h1 { color: #ffffff; margin: 0; }
+        .header p { color: #cccccc; margin: 5px 0 0 0; }
+        .project { margin: 20px auto; padding: 20px; background-color: #1a1a1a; max-width: 800px; border-radius: 10px; }
+        .project img { max-width: 100%; border-radius: 5px; }
+        .buttons { margin-top: 10px; }
+        .buttons a { text-decoration: none; padding: 10px 15px; margin-right: 10px; border-radius: 5px; background-color: #6f2dbd; color: #000000; font-weight: bold; }
+    </style>
 </head>
-
 <body>
-
-    <!-- Main Branding Card -->
-    <div class="card main-card">
+    <div class="header">
         <h1>Hello, I'm Alex Elamin</h1>
-        <h2>Data Engineer | SQL | Microsoft Fabric | Power BI</h2>
+        <p>Aspiring Data Engineer | Building scalable data pipelines</p>
+    </div>
 
-        <p>
-            I build end-to-end data pipelines transforming raw data into actionable insights.
-            Always learning and applying best practices to enterprise-scale projects.
-        </p>
-
-        <div class="icons">
-            <a href="https://github.com/alex-elamin" target="_blank">
-                <img src="images/github-icon.svg" alt="GitHub" />
-            </a>
-
-            <a href="https://www.linkedin.com/in/alexelamin" target="_blank">
-                <img src="images/linkedin-icon.svg" alt="LinkedIn" />
-            </a>
-        </div>
-
+    <div class="project">
+        <h2>API Batch Ingestion Pipeline</h2>
+        <p>Production-style pipeline with incremental ingestion, PySpark transformations, and analytics-ready Parquet outputs.</p>
+        <img src="../docs/posts_analytics_sample.png" alt="API Pipeline Sample">
         <div class="buttons">
-            <a class="btn btn-purple" href="mailto:alex@example.com">Let's Talk</a>
-            <a class="btn btn-purple" href="resume/resume.pdf" target="_blank">Resume</a>
+            <a href="https://github.com/alex-elamin/api-batch-ingestion-pipeline" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <h2>Fabric End-to-End Data Engineering</h2>
+        <p>End-to-end Fabric pipeline demonstrating ingestion, transformation, and analytics layer management.</p>
+        <img src="../docs/fabric_pipeline_sample.png" alt="Fabric Pipeline Sample">
+        <div class="buttons">
+            <a href="https://github.com/alex-elamin/fabric-end-to-end-data-engineering" target="_blank">GitHub</a>
         </div>
     </div>
 
 </body>
 </html>
+
